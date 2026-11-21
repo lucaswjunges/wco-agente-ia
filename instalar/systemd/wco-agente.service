@@ -1,0 +1,16 @@
+[Unit]
+Description=Agente de IA W&Co (Claude Code numa sessão tmux "agente")
+After=wco-ponte.service
+Wants=wco-ponte.service
+
+[Service]
+Type=forking
+WorkingDirectory=%h/wco-agente-ia
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/tmux new-session -d -s agente -c %h/wco-agente-ia "claude 'Comece o turno: siga o CLAUDE.md (primeira vez, se faltar algo; depois o ciclo de atendimento) e mantenha o vigia sempre rodando.'"
+ExecStop=/usr/bin/tmux kill-session -t agente
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=default.target

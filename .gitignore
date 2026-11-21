@@ -1,0 +1,8 @@
+config.local.md
+empresa/perfil.md
+empresa/respostas.md
+empresa/fotos/
+wa/node_modules/
+__pycache__/
+*.log
+.claude/settings.local.json

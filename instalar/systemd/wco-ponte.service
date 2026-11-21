@@ -1,0 +1,14 @@
+[Unit]
+Description=Ponte WhatsApp W&Co (Baileys)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=%h/wco-agente-ia/wa
+Environment=WA_NO_OPEN=1
+ExecStart=/usr/bin/env node daemon.mjs
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

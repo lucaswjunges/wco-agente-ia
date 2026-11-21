@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 wa/wa.py:*)",
+      "Bash(python wa/wa.py:*)",
+      "Bash(python3 wa/datas.py:*)",
+      "Bash(python wa/datas.py:*)",
+      "Bash(python3 prospeccao/lote.py:*)",
+      "Bash(python prospeccao/lote.py:*)",
+      "Read",
+      "Edit(empresa/**)",
+      "Edit(config.local.md)",
+      "Write(empresa/**)",
+      "Write(config.local.md)",
+      "Read(~/.wco_agente/**)",
+      "Edit(~/.wco_agente/**)",
+      "Write(~/.wco_agente/**)",
+      "WebSearch",
+      "WebFetch"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Read(~/.wco_agente/wa/auth/**)"
+    ]
+  }
+}
