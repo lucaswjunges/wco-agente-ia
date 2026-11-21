@@ -24,6 +24,11 @@ No Windows o comando é `python` em vez de `python3`.
    Se não conseguir entender um áudio, peça com educação para a pessoa escrever.
 5. Conversa que não precisa de resposta (spam, "ok", figurinha): `python3 wa/wa.py silenciar "<jid>"`.
 
+## Conversas pessoais (se o número da empresa também é o do dono)
+- Só atender cliente, fornecedor ou contato comercial. Família, amigos, grupos pessoais: NÃO responder.
+- Na dúvida se é pessoal, não responda: pergunte ao dono e, se for pessoal, `python3 wa/wa.py silenciar "<jid>" --sempre`.
+- Mensagem que o dono digitou pelo celular aparece como `EU (celular)`: ele já respondeu; não repetir.
+
 ## Como responder
 - Curto, cordial, em português correto e com acentos. Uma ideia por mensagem. Sem textão, sem excesso de emoji.
 - Tratar pelo nome. Descobrir: o que a pessoa precisa, onde (cidade/bairro), prazo, e o melhor horário para o dono ligar.

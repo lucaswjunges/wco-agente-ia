@@ -18,7 +18,7 @@ Quem "pensa" é o **Claude Code**, com a assinatura do próprio Lima. O WhatsApp
 ### O que precisa antes
 | Item | Observação |
 |---|---|
-| **Número de WhatsApp da empresa** | De preferência um chip só da W&Co, com WhatsApp Business num celular. **Não usar o número pessoal do Lima.** |
+| **Número de WhatsApp da empresa** | O ideal é um chip só da W&Co, com WhatsApp Business num celular. Se for usar o número atual ("W&Co. Sistema Construtivo", que também é o do Lima), funciona: o agente só atende contato comercial e ignora o que for pessoal. Mas no começo o Lima precisa marcar as conversas pessoais, e os avisos [IA] chegam no "Mensagem para você" dele. |
 | **Assinatura do Claude** (claude.ai) | No nome do Lima. Começar no **Pro** (~US$ 20/mês); se aparecer aviso de limite com frequência, passar para o **Max** (~US$ 100/mês). Confira os preços atuais no site. |
 | **Onde roda** | **Opção A:** notebook Windows do Lima, ligado na tomada no horário comercial. **Opção B:** servidor na nuvem, que fica 24 h e não depende do notebook. |
 
